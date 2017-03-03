@@ -12,9 +12,9 @@ module.controller('plugin-eskid3-Controller', function($scope, $element, $rootSc
 	var filterManager = Private(require('ui/filter_manager'));
 
 	// visualisation factory
-    var vsFactory = Private(require('./lib/vis_bar'));
+    var vsFactory = Private(require('./lib/vis_d3'));
     // create bar visualisation and initialise
-    var vs = vsFactory.createVis("bar");
+    var vs = vsFactory.createVis("vis_d3");
 
 
 	$scope.filter = function(tag) {
