@@ -1,10 +1,16 @@
-# my_plugin
+# Plugin ESKID3
 
-> An awesome Kibana plugin
+> Estructura de un plugin para Kibana con visualizaciones hechas con D3.JS
 
 ---
 
-## development
+## Introducción
+
+Todos los detalles de implementación y algunos aspectos importantes se encuentran en la siguiente dirección: [index.js](https://github.com/tomas-teston/plugin-eskid3/wiki)
+
+## Como empezar
+
+Existen varias formas de crear un plugin básico para Kibana
 
 See the [kibana contributing guide](https://github.com/elastic/kibana/blob/master/CONTRIBUTING.md) for instructions setting up your development environment. Once you have completed that, use the following npm tasks.
 
