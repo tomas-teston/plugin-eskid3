@@ -21,24 +21,15 @@ Existen varias formas para comenzar a crear un plugin básico para Kibana:
 
 Una vez está configurado el plugin puede situarse en la carpeta donde se encuentra el plugin y realizar alguna de las siguientes acciones:
 
-  - `npm start`
+  - Lanzar Kibana incluyendo el pluginStart kibana and have it include this plugin: `npm start`
 
-    Lanzar Kibana incluyendo el pluginStart kibana and have it include this plugin
-
-  - `npm start -- --config kibana.yml`
+    
+  - Puede pasar cualquier argumento como normalmente enviaría a `bin/kibana` poniendo después `--` al ejecutar `npm start`: `npm start -- --config kibana.yml`
   
-    puede pasar cualquier argumento como normalmente enviaría a `bin/kibana` poniendo después `--` al ejecutar `npm start`
+  - Construir un archivo distribuible: `npm run build`
 
-  - `npm run build`
+  - Ejecutar las pruebas de navegador en un navegador web real: `npm run test:browser`    
 
-    Construir un archivo distribuible
+  - Lanzar el servidor de pruebas usando Mocha: `npm run test:server`
 
-  - `npm run test:browser`
-
-    Ejecutar las pruebas de navegador en un navegador web real
-
-  - `npm run test:server`
-
-    Lanzar el servidor de pruebas usando Mocha
-
-Para saber mas información sobre estos comandos lanzar `npm run ${task} -- --help`.
+> Para saber mas información sobre estos comandos lanzar `npm run ${task} -- --help`.
