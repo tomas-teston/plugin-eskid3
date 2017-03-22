@@ -6,32 +6,36 @@
 
 ## Introducción
 
-Todos los detalles de implementación y algunos aspectos importantes se encuentran en la siguiente dirección: [index.js](https://github.com/tomas-teston/plugin-eskid3/wiki)
+Todos los detalles de implementación y algunos aspectos importantes se encuentran en la siguiente dirección: [Wiki](https://github.com/tomas-teston/plugin-eskid3/wiki)
 
 ## Como empezar
 
-Existen varias formas de crear un plugin básico para Kibana
+Existen varias formas para comenzar a crear un plugin básico para Kibana:
+1- clonar el proyecto: Si se selecciona esta opción se deben realizar los pasos indicados en la wiki
+2- Mediante la herramienta Yeoman.
 
-See the [kibana contributing guide](https://github.com/elastic/kibana/blob/master/CONTRIBUTING.md) for instructions setting up your development environment. Once you have completed that, use the following npm tasks.
+## Comandos
+
+Una vez está configurado el plugin puede situarse en la carpeta donde se encuentra el plugin y realizar alguna de las siguientes acciones:
 
   - `npm start`
 
-    Start kibana and have it include this plugin
+    Lanzar Kibana incluyendo el pluginStart kibana and have it include this plugin
 
   - `npm start -- --config kibana.yml`
-
-    You can pass any argument that you would normally send to `bin/kibana` by putting them after `--` when running `npm start`
+  
+    puede pasar cualquier argumento como normalmente enviaría a `bin/kibana` poniendo después `--` al ejecutar `npm start`
 
   - `npm run build`
 
-    Build a distributable archive
+    Construir un archivo distribuible
 
   - `npm run test:browser`
 
-    Run the browser tests in a real web browser
+    Ejecutar las pruebas de navegador en un navegador web real
 
   - `npm run test:server`
 
-    Run the server tests using mocha
+    Lanzar el servidor de pruebas usando Mocha
 
-For more information about any of these commands run `npm run ${task} -- --help`.
+Para saber mas información sobre estos comandos lanzar `npm run ${task} -- --help`.
