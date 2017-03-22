@@ -6,15 +6,15 @@
 
 ## Introducción
 
-Kibana es una potente aplicación web que nos permite explotar información almacenada en una base de datos Elasticsearch de una forrma muy visual. Uno de los problemas que surgen con Kibana es la escased de tipos de visualización que nos ofrece. Para solucionar este problema se pueden crear plugins de visualización para Kibana utilizando librerías de visualizaciones como [D3.js](https://d3js.org/). 
+[Kibana](https://www.elastic.co/products/kibana) es una potente aplicación web que nos permite explotar información almacenada en una base de datos [Elasticsearch](https://www.elastic.co/webinars/getting-started-elasticsearch?elektra=home&storm=banner) de una forrma muy visual. Uno de los problemas que surgen con Kibana es la escased de tipos de visualización que nos ofrece. Para solucionar este problema se pueden crear plugins de visualización para Kibana utilizando librerías de visualizaciones como [D3.js](https://d3js.org/). 
 
 Todos los detalles de implementación para crear un plugin y algunos otros aspectos importantes se encuentran descritos en la siguiente dirección: [Wiki](https://github.com/tomas-teston/plugin-eskid3/wiki)
 
 ## Como empezar
 
 Existen varias formas para comenzar a crear un plugin básico para Kibana:
-1- clonar el proyecto: Si se selecciona esta opción se deben realizar los pasos indicados en la wiki
-2- Mediante la herramienta Yeoman.
+1- Clonar el proyecto y seguir los pasos indicados en la [wiki](https://github.com/tomas-teston/plugin-eskid3/wiki).
+2- Mediante la herramienta [Yeoman](https://github.com/tomas-teston/plugin-eskid3/wiki/Estructura-b%C3%A1sica-de-un-plugin#yeoman-generator).
 
 ## Comandos
 
