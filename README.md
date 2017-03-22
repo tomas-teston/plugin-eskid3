@@ -23,7 +23,6 @@ Una vez está configurado el plugin puede situarse en la carpeta donde se encuen
 
   - Lanzar Kibana incluyendo el pluginStart kibana and have it include this plugin: `npm start`
 
-    
   - Puede pasar cualquier argumento como normalmente enviaría a `bin/kibana` poniendo después `--` al ejecutar `npm start`: `npm start -- --config kibana.yml`
   
   - Construir un archivo distribuible: `npm run build`
