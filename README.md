@@ -21,7 +21,7 @@ Existen varias formas para comenzar a crear un plugin básico para Kibana:
 
 Una vez está configurado el plugin puede situarse en la carpeta donde se encuentra el plugin y realizar alguna de las siguientes acciones:
 
-  - Lanzar Kibana incluyendo el pluginStart kibana and have it include this plugin: `npm start`
+  - Lanzar Kibana incluyendo el pluginStart kibana: `npm start`
 
   - Puede pasar cualquier argumento como normalmente enviaría a `bin/kibana` poniendo después `--` al ejecutar `npm start`: `npm start -- --config kibana.yml`
   
