@@ -14,8 +14,8 @@ Todos los detalles de implementación para crear un plugin y algunos otros aspec
 
 Existen varias formas para comenzar a crear un plugin básico para Kibana:
 
-1. Clonar el proyecto y seguir los pasos indicados en la [wiki](https://github.com/tomas-teston/plugin-eskid3/wiki).
-2. Mediante la herramienta [Yeoman](https://github.com/tomas-teston/plugin-eskid3/wiki/Estructura-b%C3%A1sica-de-un-plugin#yeoman-generator).
+- Clonar el proyecto y seguir los pasos indicados en la [wiki](https://github.com/tomas-teston/plugin-eskid3/wiki).
+- Mediante la herramienta [Yeoman](https://github.com/tomas-teston/plugin-eskid3/wiki/Estructura-b%C3%A1sica-de-un-plugin#yeoman-generator).
 
 ## Comandos
 
