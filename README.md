@@ -6,7 +6,7 @@
 
 ## Introducción
 
-Todos los detalles de implementación y algunos aspectos importantes se encuentran en la siguiente dirección: [Wiki](https://github.com/tomas-teston/plugin-eskid3/wiki)
+Kibana es una potente aplicación web que nos permite explotar información almacenada en una base de datos Elasticsearch de una forrma muy visual. Uno de los problemas que surgen con Kibana es la escased de tipos de visualización que nos ofrece. Para solucionar este problema se pueden crear plugins de visualización para Kibana utilizando librerías que ofrecen visualizaciones muy potentes como [D3.js](https://d3js.org/). Todos los detalles de implementación de estos plugins y algunos aspectos importantes se encuentran en la siguiente dirección: [Wiki](https://github.com/tomas-teston/plugin-eskid3/wiki)
 
 ## Como empezar
 
