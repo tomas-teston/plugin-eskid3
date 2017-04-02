@@ -1,31 +1,34 @@
-# my_plugin
+# Plugin ESKID3
 
-> An awesome Kibana plugin
+> Estructura de un plugin para Kibana con visualizaciones hechas con D3.JS
 
 ---
 
-## development
+## Introducción
 
-See the [kibana contributing guide](https://github.com/elastic/kibana/blob/master/CONTRIBUTING.md) for instructions setting up your development environment. Once you have completed that, use the following npm tasks.
+[Kibana](https://www.elastic.co/products/kibana) es una potente aplicación web que nos permite explotar información almacenada en una base de datos [Elasticsearch](https://www.elastic.co/webinars/getting-started-elasticsearch?elektra=home&storm=banner) de una forrma muy visual. Uno de los problemas que surgen con Kibana es la escased de tipos de visualización que nos ofrece. Para solucionar este problema se pueden crear plugins de visualización para Kibana utilizando librerías de visualizaciones como [D3.js](https://d3js.org/). 
 
-  - `npm start`
+Todos los detalles de implementación para crear un plugin y algunos otros aspectos importantes se encuentran descritos en la siguiente dirección: [Wiki](https://github.com/tomas-teston/plugin-eskid3/wiki)
 
-    Start kibana and have it include this plugin
+## Como empezar
 
-  - `npm start -- --config kibana.yml`
+Existen varias formas para comenzar a crear un plugin básico para Kibana:
 
-    You can pass any argument that you would normally send to `bin/kibana` by putting them after `--` when running `npm start`
+- Clonar el proyecto y seguir los pasos indicados en la [wiki](https://github.com/tomas-teston/plugin-eskid3/wiki).
+- Mediante la herramienta [Yeoman](https://github.com/tomas-teston/plugin-eskid3/wiki/Estructura-b%C3%A1sica-de-un-plugin#yeoman-generator).
 
-  - `npm run build`
+## Comandos
 
-    Build a distributable archive
+Una vez está configurado el plugin puede situarse en la carpeta donde se encuentra el plugin y realizar alguna de las siguientes acciones:
 
-  - `npm run test:browser`
+  - Lanzar Kibana incluyendo el pluginStart kibana: `npm start`
 
-    Run the browser tests in a real web browser
+  - Puede pasar cualquier argumento como normalmente enviaría a `bin/kibana` poniendo después `--` al ejecutar `npm start`: `npm start -- --config kibana.yml`
+  
+  - Construir un archivo distribuible: `npm run build`
 
-  - `npm run test:server`
+  - Ejecutar las pruebas de navegador en un navegador web real: `npm run test:browser`    
 
-    Run the server tests using mocha
+  - Lanzar el servidor de pruebas usando Mocha: `npm run test:server`
 
-For more information about any of these commands run `npm run ${task} -- --help`.
+> Para saber mas información sobre estos comandos lanzar `npm run ${task} -- --help`.
