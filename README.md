@@ -1,6 +1,6 @@
-# Plugin ESKID3
+# Plugin ESKID3 - Example Bars
 
-> Estructura de un plugin para Kibana con visualizaciones hechas con D3.JS
+> Plugin para Kibana. Visualizacin de barras hecha con D3.JS
 
 ---
 
