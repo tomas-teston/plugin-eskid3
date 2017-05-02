@@ -10,7 +10,7 @@
 
 Todos los detalles de implementación para crear un plugin y algunos otros aspectos importantes se encuentran descritos en la siguiente dirección: [Wiki](https://github.com/tomas-teston/plugin-eskid3/wiki)
 
-## Como empezar
+## Cómo empezar
 
 Existen varias formas para comenzar a crear un plugin básico para Kibana:
 
