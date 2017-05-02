@@ -1,6 +1,6 @@
 # Plugin ESKID3
 
-> Estructura bsica de un plugin de tipo visualización realizado con D3.JS
+> Estructura básica de un plugin de tipo visualización realizado con D3.JS
 
 ---
 
